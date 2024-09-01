@@ -58,8 +58,8 @@ console.log("Employee Scores Strictly not Equal:", employeeScore1 !== employeeSc
 
 // Task 5: Logical Operators
 let hasKeyCard= true;
-let hasPermission= false;
+let hasPermission= true;
 
-console.log(hasKeyCard && hasPermission);
-console.log(hasKeyCard || hasPermission);
-console.log(!hasKeyCard);
+console.log("Complete Access:", hasKeyCard && hasPermission);
+console.log("Limited Access:", hasKeyCard || hasPermission);
+console.log("No Access:", !hasKeyCard);
