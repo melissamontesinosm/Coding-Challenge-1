@@ -48,12 +48,12 @@ console.log("Balance Remainder:", accountBalance);
 let employeeScore1= 87 ;
 let employeeScore2= 42 ;
 
-console.log(employeeScore1 > employeeScore2);
-console.log(employeeScore1 < employeeScore2);
-console.log(employeeScore1 >= employeeScore2);
-console.log(employeeScore1 <= employeeScore2);
-console.log(employeeScore1 === employeeScore2);
-console.log(employeeScore1 !== employeeScore2);
+console.log("Employee Score 1 Greater:", employeeScore1 > employeeScore2);
+console.log("Employee Score 2 Greater:", employeeScore1 < employeeScore2);
+console.log("Employee Score 1 Greater than or equal to Employee Score 2:", employeeScore1 >= employeeScore2);
+console.log("Employee Score 2 Greater than or equal to Employee Score 1:", employeeScore1 <= employeeScore2);
+console.log("Employee Scores Strictly Equal:", employeeScore1 === employeeScore2);
+console.log("Employee Scores Strictly not Equal:", employeeScore1 !== employeeScore2);
 
 
 // Task 5: Logical Operators
